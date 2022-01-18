@@ -1,0 +1,31 @@
+[ {
+  "uid" : "4ecdbcc82e949f2e",
+  "name" : "requestToken_CheckResponseHas_String_Token",
+  "time" : {
+    "start" : 1642492532494,
+    "stop" : 1642492533906,
+    "duration" : 1412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7413dd69dd709e85",
+  "name" : "requestToken_CheckResponseCode_expect200",
+  "time" : {
+    "start" : 1642492530294,
+    "stop" : 1642492532488,
+    "duration" : 2194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcd963e00e202260",
+  "name" : "requestToken_CompareLength_Greater_ThankZero",
+  "time" : {
+    "start" : 1642492533909,
+    "stop" : 1642492535583,
+    "duration" : 1674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

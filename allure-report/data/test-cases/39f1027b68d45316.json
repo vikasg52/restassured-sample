@@ -1,0 +1,80 @@
+{
+  "uid" : "39f1027b68d45316",
+  "name" : "requestToken_CheckResponseCode_expect200",
+  "fullName" : "ibo.tests.BasicTests.requestToken_CheckResponseCode_expect200",
+  "historyId" : "2b6c1698f158ec82eea543acfe60cb69",
+  "time" : {
+    "start" : 1642490990503,
+    "stop" : 1642490992559,
+    "duration" : 2056
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "createRequestSpecification",
+    "time" : {
+      "start" : 1642490990016,
+      "stop" : 1642490990454,
+      "duration" : 438
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "testClass",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "requestToken_CheckResponseCode_expect200"
+  }, {
+    "name" : "parentSuite",
+    "value" : "REST Assured Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "All"
+  }, {
+    "name" : "subSuite",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "host",
+    "value" : "vikass-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24002@vikass-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39f1027b68d45316.json",
+  "parameterValues" : [ ]
+}

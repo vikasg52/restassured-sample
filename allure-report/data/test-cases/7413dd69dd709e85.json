@@ -1,0 +1,168 @@
+{
+  "uid" : "7413dd69dd709e85",
+  "name" : "requestToken_CheckResponseCode_expect200",
+  "fullName" : "ibo.tests.BasicTests.requestToken_CheckResponseCode_expect200",
+  "historyId" : "2b6c1698f158ec82eea543acfe60cb69",
+  "time" : {
+    "start" : 1642492530294,
+    "stop" : 1642492532488,
+    "duration" : 2194
+  },
+  "description" : "Validate that login API is working and returning status code 200",
+  "descriptionHtml" : "<p>Validate that login API is working and returning status code 200</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "createRequestSpecification",
+    "time" : {
+      "start" : 1642492529616,
+      "stop" : 1642492530095,
+      "duration" : 479
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Validate that login API is working and returning status code 200",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Fetch login credentials and send to API",
+      "time" : {
+        "start" : 1642492530627,
+        "stop" : 1642492530627,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fetch login credentials and send to API",
+      "time" : {
+        "start" : 1642492530627,
+        "stop" : 1642492530628,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "testClass",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "requestToken_CheckResponseCode_expect200"
+  }, {
+    "name" : "parentSuite",
+    "value" : "REST Assured Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "All"
+  }, {
+    "name" : "subSuite",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "host",
+    "value" : "vikass-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24590@vikass-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "57bfeb7f7b445618",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642492154085,
+        "stop" : 1642492156295,
+        "duration" : 2210
+      }
+    }, {
+      "uid" : "3a2f8010aaf140f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642491925440,
+        "stop" : 1642491927414,
+        "duration" : 1974
+      }
+    }, {
+      "uid" : "39f1027b68d45316",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642490990503,
+        "stop" : 1642490992559,
+        "duration" : 2056
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7871f98c9db434ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642490990503,
+          "stop" : 1642490992559,
+          "duration" : 2056
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7413dd69dd709e85.json",
+  "parameterValues" : [ ]
+}

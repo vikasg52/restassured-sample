@@ -1,0 +1,204 @@
+{
+  "uid" : "bcd963e00e202260",
+  "name" : "requestToken_CompareLength_Greater_ThankZero",
+  "fullName" : "ibo.tests.BasicTests.requestToken_CompareLength_Greater_ThankZero",
+  "historyId" : "eda6e3c73dcbd114a4907a213a048ee1",
+  "time" : {
+    "start" : 1642492533909,
+    "stop" : 1642492535583,
+    "duration" : 1674
+  },
+  "description" : "Validate that login API is working and token string length is greater than 0",
+  "descriptionHtml" : "<p>Validate that login API is working and token string length is greater than 0</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "createRequestSpecification",
+    "time" : {
+      "start" : 1642492533908,
+      "stop" : 1642492533908,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Validate that login API is working and token string length is greater than 0",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send Login API call and return the response body",
+      "time" : {
+        "start" : 1642492533914,
+        "stop" : 1642492535292,
+        "duration" : 1378
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Fetch login credentials and send to API",
+        "time" : {
+          "start" : 1642492533915,
+          "stop" : 1642492533915,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fetch login credentials and send to API",
+        "time" : {
+          "start" : 1642492533915,
+          "stop" : 1642492533916,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "requestSpec",
+        "value" : "io.restassured.internal.RequestSpecificationImpl@5d449307"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fetch the token string from the response body",
+      "time" : {
+        "start" : 1642492535293,
+        "stop" : 1642492535581,
+        "duration" : 288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loginResponse",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@32e7df65"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "testClass",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "requestToken_CompareLength_Greater_ThankZero"
+  }, {
+    "name" : "parentSuite",
+    "value" : "REST Assured Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "All"
+  }, {
+    "name" : "subSuite",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "host",
+    "value" : "vikass-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24590@vikass-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7941c36b973be44a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642492157841,
+        "stop" : 1642492159608,
+        "duration" : 1767
+      }
+    }, {
+      "uid" : "2aff2acd605e9019",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642491928786,
+        "stop" : 1642491930390,
+        "duration" : 1604
+      }
+    }, {
+      "uid" : "987dea3d5ed42c6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642490993758,
+        "stop" : 1642490995182,
+        "duration" : 1424
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "349dad2627d15c05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642490993758,
+          "stop" : 1642490995182,
+          "duration" : 1424
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bcd963e00e202260.json",
+  "parameterValues" : [ ]
+}

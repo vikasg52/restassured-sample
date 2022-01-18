@@ -1,0 +1,123 @@
+{
+  "uid" : "57bfeb7f7b445618",
+  "name" : "requestToken_CheckResponseCode_expect200",
+  "fullName" : "ibo.tests.BasicTests.requestToken_CheckResponseCode_expect200",
+  "historyId" : "2b6c1698f158ec82eea543acfe60cb69",
+  "time" : {
+    "start" : 1642492154085,
+    "stop" : 1642492156295,
+    "duration" : 2210
+  },
+  "description" : "Validate that login API is working and returning status code 200",
+  "descriptionHtml" : "<p>Validate that login API is working and returning status code 200</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "createRequestSpecification",
+    "time" : {
+      "start" : 1642492153390,
+      "stop" : 1642492153855,
+      "duration" : 465
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Validate that login API is working and returning status code 200",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Fetch login credentials and send to API",
+      "time" : {
+        "start" : 1642492154410,
+        "stop" : 1642492154410,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fetch login credentials and send to API",
+      "time" : {
+        "start" : 1642492154411,
+        "stop" : 1642492154411,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "testClass",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "requestToken_CheckResponseCode_expect200"
+  }, {
+    "name" : "parentSuite",
+    "value" : "REST Assured Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "All"
+  }, {
+    "name" : "subSuite",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "host",
+    "value" : "vikass-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24447@vikass-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57bfeb7f7b445618.json",
+  "parameterValues" : [ ]
+}

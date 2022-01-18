@@ -1,0 +1,168 @@
+{
+  "uid" : "4ecdbcc82e949f2e",
+  "name" : "requestToken_CheckResponseHas_String_Token",
+  "fullName" : "ibo.tests.BasicTests.requestToken_CheckResponseHas_String_Token",
+  "historyId" : "bee5e8d79ad472ad2398363b80ece26d",
+  "time" : {
+    "start" : 1642492532494,
+    "stop" : 1642492533906,
+    "duration" : 1412
+  },
+  "description" : "Validate that login API is working and returning token string in response",
+  "descriptionHtml" : "<p>Validate that login API is working and returning token string in response</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "createRequestSpecification",
+    "time" : {
+      "start" : 1642492532492,
+      "stop" : 1642492532493,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Validate that login API is working and returning token string in response",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Fetch login credentials and send to API",
+      "time" : {
+        "start" : 1642492532495,
+        "stop" : 1642492532495,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fetch login credentials and send to API",
+      "time" : {
+        "start" : 1642492532495,
+        "stop" : 1642492532495,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "testClass",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "requestToken_CheckResponseHas_String_Token"
+  }, {
+    "name" : "parentSuite",
+    "value" : "REST Assured Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "All"
+  }, {
+    "name" : "subSuite",
+    "value" : "ibo.tests.BasicTests"
+  }, {
+    "name" : "host",
+    "value" : "vikass-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24590@vikass-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eafa7d809130d5f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642492156300,
+        "stop" : 1642492157838,
+        "duration" : 1538
+      }
+    }, {
+      "uid" : "919ec721e52fefdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642491927419,
+        "stop" : 1642491928783,
+        "duration" : 1364
+      }
+    }, {
+      "uid" : "e3d46b77e851274d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642490992565,
+        "stop" : 1642490993753,
+        "duration" : 1188
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b1a37a957b960ad4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642490992565,
+          "stop" : 1642490993753,
+          "duration" : 1188
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4ecdbcc82e949f2e.json",
+  "parameterValues" : [ ]
+}

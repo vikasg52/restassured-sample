@@ -1,0 +1,68 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "REST Assured Test Suite",
+    "children" : [ {
+      "name" : "All",
+      "children" : [ {
+        "name" : "ibo.tests.BasicTests",
+        "children" : [ {
+          "name" : "requestToken_CheckResponseCode_expect200",
+          "uid" : "7413dd69dd709e85",
+          "parentUid" : "712ab4321528ba8da3f54dfc83901298",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642492530294,
+            "stop" : 1642492532488,
+            "duration" : 2194
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 3,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "requestToken_CheckResponseHas_String_Token",
+          "uid" : "4ecdbcc82e949f2e",
+          "parentUid" : "712ab4321528ba8da3f54dfc83901298",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642492532494,
+            "stop" : 1642492533906,
+            "duration" : 1412
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 3,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "requestToken_CompareLength_Greater_ThankZero",
+          "uid" : "bcd963e00e202260",
+          "parentUid" : "712ab4321528ba8da3f54dfc83901298",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642492533909,
+            "stop" : 1642492535583,
+            "duration" : 1674
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 3,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "712ab4321528ba8da3f54dfc83901298"
+      } ],
+      "uid" : "9e59a1da2274a10c7dd54b77603372af"
+    } ],
+    "uid" : "b39a5b66c8f0ee19e26612d32397e34a"
+  } ]
+}
