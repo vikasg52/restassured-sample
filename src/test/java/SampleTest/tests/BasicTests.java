@@ -1,21 +1,18 @@
-package ibo.tests;
+package SampleTest.tests;
 
+import SampleTest.util.Utility;
 import dataentities.Login;
-import ibo.util.Utility;
 import io.qameta.allure.Description;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.hamcrest.Matchers;
 //import org.junit.jupiter.api.BeforeEach;
 //import org.junit.jupiter.api.Test;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import static ibo.util.Utility.getToken;
+import static SampleTest.util.Utility.getToken;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 

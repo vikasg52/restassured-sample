@@ -2,7 +2,8 @@
 <suite name="REST Assured Test Suite">
     <test name="All">
         <classes>
-            <class name="ibo.tests.BasicTests"/>
+            <class name="SampleTest.tests.BasicTests"/>
+            <class name="SampleTest.tests.CreateBookingTest"/>
         </classes>
     </test>
 </suite>

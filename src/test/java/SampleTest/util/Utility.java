@@ -1,11 +1,13 @@
-package ibo.util;
+package SampleTest.util;
 
 import dataentities.Login;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-import java.util.Base64;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 import static io.restassured.RestAssured.given;
 
@@ -36,10 +38,34 @@ public class Utility {
                 response();
     }
 
+    @Step("Create user ands return response body")
+    public static Response createBooking(RequestSpecification requestSpecs) throws IOException {
+        byte[] jsonData = Files.readAllBytes(Paths.get("./src/test/data/createUser.json"));
+        return
+        given().
+                spec(requestSpecs).
+                when().
+                body(jsonData).
+                log().uri().
+                post("/booking").
+                then().
+                log().body().
+                assertThat().
+                statusCode(200).
+                extract().response();
+    }
+
 
     @Step("Fetch the token string from the response body")
-    public static String getToken(Response loginResponse) {
+    public static String getToken(Response loginResponse)
+    {
         return loginResponse.jsonPath().getString("token");
+    }
+
+    @Step("Fetch from the response, {1}")
+    public static String getData(Response response, String data)
+    {
+        return response.jsonPath().getString(data);
     }
 
 
